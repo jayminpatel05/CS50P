@@ -38,8 +38,8 @@ class Student:
 def main():
     student = get_student()
     print()
-    print(f"Please see below details for {student.name}")
-    print(student)
+    print(f"Please see below details for {student.name}") 
+    #  print(student)
     print("Charm assigned to your student: " + student.charm())
 
 
